@@ -1,19 +1,19 @@
 # pf-ui
 
-## Project setup
-```
-npm install
-```
+- 初始化vue项目
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+  vue create demo
 
-### Compiles and minifies for production
-```
-npm run build
-```
+- 安装组件库
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+  npm add pf-ui
+
+- 全局导入
+
+  import PfUI from 'pf-ui' import 'pf-ui/lib/pf.css'
+
+  Vue.use(PfUI)
+
+- 使用组件
+
+## 详情步骤请看[我的博客](https://wwwpppfffzzz.github.io/)
